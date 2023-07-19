@@ -53,6 +53,8 @@ Spotify URL: <spotify_song_or_playlist_url>
 
 ### RegexMatchError - ``pytube/cypher.py``
 
+RegexMatchError: get_transform_object: could not find match for var for={(.*?)}
+
 [Fix found on StackOverflow](https://stackoverflow.com/questions/76704097/pytube-exceptions-regexmatcherror-get-transform-object-could-not-find-match-fo)
 
 - In file `.venv/lib/python3.10/site-packages/pytube/cipher.py`. I am using python 3.10 and my virtual environment is called .venv You just have to find the library pytube and go to the file cipher.py and edit its source code for now.
@@ -73,7 +75,7 @@ def get_transform_object(js: str, var: str) -> List[str]:
     return transform_match.group(1).replace("\n", " ").split(", ")    
 ```
 
-## Feature Plans
+## Future Plans
 
 - [ ] Improve code readability
 - [ ] Imporve CLI readability
