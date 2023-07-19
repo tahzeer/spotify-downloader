@@ -68,8 +68,9 @@ def get_transform_object(js: str, var: str) -> List[str]:
 ```
 
 ## Feature Plans
-- [ ] Skip song if already downloaded
+- [ ] Improve code readability
 - [ ] Imporve CLI readability
+- [ ] Skip song if already downloaded
 - [ ] Add lyrics file from `genius.com`
 
 ## License
