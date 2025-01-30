@@ -1,6 +1,6 @@
-# Unspotify.Me
+# Spotify Downloader
 
-Unspotify.Me is a Python script that allows you to download audio tracks from Spotify by providing a Spotify URL. It utilizes the Spotify and YouTube APIs to retrieve track information and search for corresponding YouTube videos. The YouTube videos are then downloaded and converted to MP3 audio files with their metadata preserved.
+Python script that allows you to download audio tracks from Spotify by providing a Spotify URL. It utilizes the Spotify and YouTube APIs to retrieve track information and search for corresponding YouTube videos. The YouTube videos are then downloaded and converted to MP3 audio files with their metadata preserved.
 
 ## Prerequisites
 
@@ -13,7 +13,7 @@ Before using the script, make sure you have the following prerequisites installe
 1. Clone this repository to your local machine:
 
 ```bash
-git clone https://github.com/tahzeer/unspotify-me.git
+git clone https://github.com/tahzeer/spotify-downloader.git
 ```
 
 2. Install the required Python packages:
